@@ -2,7 +2,7 @@
 
 The idea of the project is to syncronise Strava activity log with Google calendar.
 --------------------
-##Strava API
+#Strava API
 
 0. Create app.
 To get started create your app following the link:
@@ -10,7 +10,7 @@ https://www.strava.com/settings/api
 
 1. Authorize the user and get code.
 Strava will provide you with client id, client secret and client token that will give you general information such as user name or his id. To get access to user activity log, you need to authorize via OAuth. To manually get token use the link:
-https://www.strava.com/oauth/authorize?client_id=[your client id]&response_type=code&redirect_uri=http://localhost:5000/exchange_token&approval_prompt=force&scope=activity:read_all
+https://www.strava.com/oauth/authorize?client_id=[your_client_id]&response_type=code&redirect_uri=http://localhost:5000/exchange_token&approval_prompt=force&scope=activity:read_all
 
 As soon as you push the "Authorize" button it will redirect you to
 http://localhost:5000/exchange_token?state=&code=[code]&scope=read,activity:read_all
