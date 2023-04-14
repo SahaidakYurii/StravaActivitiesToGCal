@@ -1,7 +1,8 @@
 #Strava and GCal sync
 
 The idea of the project is to syncronise Strava activity log with Google calendar.
---------------------
+
+
 #Strava API
 
 0. Create app.
@@ -19,7 +20,7 @@ You need to get code from this link and use it to generate new access and refres
 
 2. Get Access token for the user.
 Use the following post method in Postman to get json respond:
-https://www.strava.com/oauth/token?client_id=[client id]&client_secret=[client secret]&code=[code from previous step]&grant_type=authorization_code
+https://www.strava.com/oauth/token?client_id=[client_id]&client_secret=[client_secret]&code=[code_from_previous_step]&grant_type=authorization_code
 
 3. Create .env file in root repository:
 ```
